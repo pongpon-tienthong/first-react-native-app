@@ -3,7 +3,6 @@ import { StyleSheet, View } from "react-native";
 
 import PlaceList from "./src/components/PlaceList/PlaceList";
 import PlaceInput from "./src/components/PlaceInput/PlaceInput";
-import longBeachImage from "./src/assets/long_beach.jpg";
 
 export default class App extends Component {
   state = {
@@ -16,7 +15,10 @@ export default class App extends Component {
         places: prevState.places.concat({
           key: Math.random().toString(),
           name: placeName,
-          image: longBeachImage
+          image: {
+            uri:
+              "https://a11c5e8fa73ef6a3e4e9-166542a27aba2e1443048496dd1ca989.ssl.cf1.rackcdn.com/properties/photos/2766704_1_1495599080.jpg"
+          }
         })
       };
     });
