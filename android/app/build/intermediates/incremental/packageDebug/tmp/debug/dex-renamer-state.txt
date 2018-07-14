@@ -1,4 +1,0 @@
-#Sat Jun 23 00:05:24 CDT 2018
-base.0=/Users/pongpon/Dev/AwesomeProject/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
